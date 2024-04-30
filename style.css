@@ -5,5 +5,44 @@ body{
 }
 
 header{
-    background-color: aquamarine;
+    background-color: aqua;
+    margin: 0;
+  
 }
+
+@media (min-width: 300px) and (max-width: 425px) {
+    .container{
+        width: 425px;
+    }
+    body{
+        width: 425px;
+    }
+   header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 425px ;
+   }
+   .banner{
+    width: 425px;
+   }
+   .banner figure{
+    margin: 0;
+    width: 425px;
+   }
+   .banner figure img{
+    width: 425px ;
+   }
+   .saidbar{
+    display: none;
+   }
+  }
+  @media (min-width: 425px) {
+    header{
+     width: 425px ;
+    }
+     
+ 
+   }

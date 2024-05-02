@@ -1,8 +1,13 @@
 body{
     font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
+ul {
+    list-style: none;
+  }
 
 header{
     background-color: aqua;
@@ -13,9 +18,12 @@ header{
 @media (min-width: 300px) and (max-width: 425px) {
     .container{
         width: 425px;
+        padding:0;
+
     }
     body{
         width: 425px;
+        padding:0;
     }
    header{
     display: flex;
@@ -24,20 +32,77 @@ header{
     align-content: center;
     justify-content: space-evenly;
     width: 425px ;
+    padding:0;
    }
    .banner{
     width: 425px;
+    padding:0;
    }
    .banner figure{
     margin: 0;
     width: 425px;
+    padding:0;
    }
    .banner figure img{
     width: 425px ;
+    padding:0;
    }
    .saidbar{
     display: none;
+    padding:0;
    }
+   .aboutMe{
+    padding: 12px;
+    background-color: blueviolet;
+   }
+    .aligned-list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .aligned-list li {
+        margin-bottom: 10px;
+        display: flex;
+    }
+    
+    .aligned-list li span {
+        min-width: 120px; /* Ajusta el ancho según tus necesidades */
+        display: inline-block;
+        font-weight: bold;
+    }
+    
+    .aligned-list li span:not(:first-child) {
+        margin-left: 20px; /* Espacio entre la etiqueta y el valor */
+    }
+    
+    .skills{
+        padding: 12px;
+        background-color: rgb(255, 170, 13);
+    }
+    .skill1{
+        display: flex;
+        flex-direction: row;
+        
+        }
+        .skill1--icono{
+            width: 20%;
+            margin: 0;
+            padding: 0;
+            }
+            
+            .skill1--text{
+                width: 80%;
+                margin: 0;
+                padding: 0;
+                }
+                .skill1--text h3{
+                    margin-top: 0;
+                    }
+    .skill1--icono img{
+        width:70px;
+        height: 70px;
+    }
+
   }
   @media (min-width: 425px) {
     header{

@@ -102,7 +102,78 @@ header{
         width:70px;
         height: 70px;
     }
+    .education{
+        padding: 12px;
+        background-color: rgb(255, 255, 255);
+    }
+    .education--item{
+        display: flex;
+        flex-direction: row;
+    }
+    .education--tittle{
+        border-bottom: 1px solid #c0c0c0;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
 
+    .education--icono{
+        display: flex; /* Utilizar flexbox */
+        align-items: flex-start; /* Alinear elementos en la parte superior del contenedor */
+        text-align: center; /* Alinear el texto al centro horizontalmente */
+         
+            width: 20%;
+            height: 50%;
+            margin: 0;
+            padding: 0;
+            }
+            .education--icono p{
+                font-size: 28px;
+                }
+                
+            .education--text{
+                width: 80%;
+                margin: 0;
+                padding: 0;
+                }
+                .education--text h3{
+                    margin-top: 0;
+                    }
+    .seducation--icono img{
+        width:70px;
+        height: 70px;
+    }
+
+    /*SECTION ABOUT EMPOYMENT*/
+    .employment{
+        padding: 12px;
+        background-color: blueviolet;
+    }
+    .employment--item{
+        position: relative;
+        border-bottom: 1px solid transparent; /* Borde transparente */
+        margin-bottom: 20px; 
+        
+    }
+    .employment--item::after {
+        content: '';
+        position: absolute;
+        bottom: -5px; /* Ajusta esto para la mitad del margen */
+        left: 70%; /* Centra el pseudo-elemento */
+        transform: translateX(-80%);
+        width: 70%; /* Ajusta esto para la mitad del margen */
+        border-bottom: 1px solid #c0c0c0; / /* La mitad del margen */
+    }
+    .employment--item h3, h4 {
+        margin:0;
+    }
+    .employment--item h3, h4 {
+        margin:0;
+    }
+    .dateYear {
+        display: inline-block;
+        background-color: black;
+        color: #c0c0c0;
+    }
   }
   @media (min-width: 425px) {
     header{

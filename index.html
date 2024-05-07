@@ -13,11 +13,23 @@
         <div class="titulo"><p>JS Devps</p></div>
         <nav><p>|||</p></nav>
     </header>
-    <div class="banner">
-        <figure>
-            <img src="./img/banner1.avif" alt="imagenes decorativa de desarrollador">
-        </figure>
-    </div>
+
+        <div class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">Slide 01</li>
+                <li class="splide__slide">Slide 03</li>
+                <li class="splide__slide">Slide 04</li>
+                
+              </ul>
+            </div>
+            
+            <!-- Add the progress bar element -->
+            <div class="my-slider-progress">
+              <div class="my-slider-progress-bar">var</div>
+            </div>
+          </div>
+
     <div class="saidbar">
         <ul>
             <li>aboutMe</li>
@@ -138,11 +150,48 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorem, quo vel omnis perspiciatis quisquam voluptatum nam accusantium alias? Modi quam nulla maiores aut? Optio expedita atque assumenda aperiam recusandae.</p>
             </div>
         </section>
-        <section class="blog"><p>Blog</p></section>
-        <section class="contact"><p>contact</p></section>
-        <section class="networking"><p>networking</p></section>
+        <section class="blog">
+            <h2>Blog</h2>
+            <section class="blogSection">
+            
+            
+                <article class="blogSection--article">
+                    <a href="https://johansanabria.blogspot.com/2024/04/aprender-en-distintos-tiempos.html" target="_blank"><p><samp>Aprender en Distinos Tiempos</samp></p></a>
+                    <div>
+                        <p>Abril 30, 2024</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section class="contact">
+            <h2>contactame</h2>
+            <form action="" method="post">
+                <input type="text" placeholder="*Tu Nombre">
+                <input type="email" placeholder="*Tu Correo">
+                    <select id="opciones" name="opciones">
+                        <option value="">* Cual es tu interes</option>
+                        <option value="opcion1">Tecnico en Soporte</option>
+                        <option value="opcion2">Diseñador Web</option>
+                        <option value="opcion3">Diseñador Grafico</option>
+                        <option value="opcion4">Analista de Datos</option>
+                    </select>
+                <input type="text" placeholder="*Tu Mensaje">
+            </form>
+        </section>
+        <section class="networking">
+            <h2>networking</h2>
+            <p>Linkedin</p>
+            <p>GitHub</p>
+            <p>Youtube</p>
+            <p>Blogger</p>
+
+        </section>
     </main>
-    <footer><p>footer</p></footer>
+    <footer>
+        <p>© 2024 JOHAN IS PROUDLY POWERED BY Johan Sanabria.</p>
+    </footer>
 </div>
+<script src="script.js"></script>
+<script src="ruta-al-archivo/splide.min.js"></script>
 </body>
 </html>

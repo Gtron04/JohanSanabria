@@ -34,19 +34,19 @@ header{
     width: 425px ;
     padding:0;
    }
-   .banner{
-    width: 425px;
-    padding:0;
+
+
+   .my-slider-progress {
+     background: #a74949;
    }
-   .banner figure{
-    margin: 0;
-    width: 425px;
-    padding:0;
+   
+   .my-slider-progress-bar {
+     background: rgb(132, 207, 20);
+     height: 2px;
+     transition: width 400ms ease;
+     width: 0;
    }
-   .banner figure img{
-    width: 425px ;
-    padding:0;
-   }
+  
    .saidbar{
     display: none;
     padding:0;
@@ -173,6 +173,52 @@ header{
         display: inline-block;
         background-color: black;
         color: #c0c0c0;
+    }
+
+    
+    /*SECTION ABOUT CONTAC*/
+
+    .blog{
+        padding: 12px;
+        background-color: rgb(255, 170, 13);
+    }
+    .blogSection{
+        border: 4px rgb(241, 195, 108) solid;
+        margin: 6px;
+        padding: 6px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    /*SECTION ABOUT CONTAC*/
+    .contact{
+        padding: 12px;   
+    }
+    form{
+        margin: 20px;
+    }
+    form input{
+        margin: 5px;
+        width: 340px; /* Ancho deseado */
+        height: 30px; /* Altura deseada */
+        border-color: #ccc;
+        border-width: 1px;
+        border-style: solid;
+    }
+    #opciones{
+        margin: 5px;
+        width: 346px; /* Ancho deseado */
+        height: 34px; /* Altura deseada */
+        border-color: #ccc;
+        border-width: 1px;
+        border-style: solid;
+        color: #666;
+    }
+    /*SECTION ABOUT networkin*/
+    .networking{
+        padding: 12px;
+        background-color: blueviolet;
     }
   }
   @media (min-width: 425px) {

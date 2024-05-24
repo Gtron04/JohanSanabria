@@ -34,8 +34,43 @@ header{
     width: 425px ;
     padding:0;
    }
+   .splide{
+    width: 425px
+   }
+   .mySlides{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+   }
 
+   .w3-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
 
+  }
+
+  
+  .w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+  }
+  
+  .w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+  }
+   }
    .my-slider-progress {
      background: #a74949;
    }
@@ -225,6 +260,18 @@ header{
     header{
      width: 425px ;
     }
-     
+    .w3-display-left {
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translate(0%, -50%);
+      }
+      
+      .w3-display-right {
+        position: absolute;
+        top: 50%;
+        right: -32%;
+        transform: translate(0%, -50%);
+      } 
  
    }
